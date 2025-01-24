@@ -1,0 +1,24 @@
+{
+  "name": "moviemagic-jsbackend",
+  "version": "1.0.0",
+  "description": "MovieMagic-JsBackEnd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/HelloEveryones/MovieMagic-JsBackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloEveryones/MovieMagic-JsBackEnd/issues"
+  },
+  "homepage": "https://github.com/HelloEveryones/MovieMagic-JsBackEnd#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
