@@ -13,7 +13,7 @@ app.set("view engine", "hbs");
 app.set("views", "./src/views");
 
 app.get("/", (req, res) => {
-  res.render("home", { layout: false });
+  res.render("home");
 });
 
 app.use('/static', express.static('src/public'));
