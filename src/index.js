@@ -3,7 +3,7 @@ import handlebars from "express-handlebars";
 
 const app = express();
 
-app.engine(
+app.engine( 
   "hbs",
   handlebars.engine({
     extname: "hbs", 
@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   res.render("home", { layout: false });
 });
 
-app.use(express.static('src/public'));
+app.use('/static', express.static('src/public'));
 
 app.listen(5000, () =>
   console.log("Server is listening on http://localhost:5000...")
