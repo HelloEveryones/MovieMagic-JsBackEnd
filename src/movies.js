@@ -1,11 +1,13 @@
 export default[
     {
+        id: '1',
         title: 'Primerno Ime 2',
         genre: 'primeren janr',
         description: 'gdhfgfgfjjdjfhhfhfhfhfhfhfhfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfffffffffffffffffffffjjjjjjjjjjjjjjjjjjjjjfffffffffffffffffffffffffffffffff',
         imageUrl: 'https://i.ytimg.com/vi/Mn-ka4JMFdY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGDggUihyMA8=&rs=AOn4CLAQMgOkn-QxTrtzc5U-EzTew6HSMw'
     },
     {
+        id:'2',
         title: 'Vtoro Ime',
         genre: 'vtori janr',
         description: 'gdhfgfgfjjdjfhhfhfhfhfhfhfhfhhhhhhhhhhhhmmmmhhhhhhhhhhhhhhhhhhhhhhhhhhhfffffffffffffffffffffjjjjjjjjjjjjjjjjjjjjjfffffffffffffffffffffffffffffffff',
