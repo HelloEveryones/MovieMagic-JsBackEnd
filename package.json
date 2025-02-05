@@ -9,7 +9,6 @@
     "dev": "nodemon src/index.js"
   },
   "repository": {
-    
     "url": "git+https://github.com/HelloEveryones/MovieMagic-JsBackEnd.git"
   },
   "keywords": [],
@@ -24,6 +23,7 @@
   },
   "dependencies": {
     "express": "^4.21.2",
-    "express-handlebars": "^8.0.1"
+    "express-handlebars": "^8.0.1",
+    "uuid": "^11.0.5"
   }
 }
