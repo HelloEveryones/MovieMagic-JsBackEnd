@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "MovieMagic-JsBackEnd",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "repository": {
-    "type": "module",
+    
     "url": "git+https://github.com/HelloEveryones/MovieMagic-JsBackEnd.git"
   },
   "keywords": [],
