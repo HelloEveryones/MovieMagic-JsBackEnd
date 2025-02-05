@@ -12,10 +12,11 @@ create(movieData){
 movies.push({
     id:newId,
     ...movieData,
+    rating:Number(movieData.rating),
 });
 return newId;
 },
 getAll(){
-  return movies;  
+  return movies;   
 }
  }
