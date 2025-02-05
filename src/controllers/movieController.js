@@ -9,7 +9,9 @@ movieController.get('/create', (req, res)=>{
 });
 
 movieController.get('/search', (req, res)=>{
-res.render('search');
+    const movies=movieService.getAll;
+
+res.render('search',{movies});
 })
 
 movieController.post('/create', (req, res)=>{
